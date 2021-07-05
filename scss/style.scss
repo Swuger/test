@@ -1,4 +1,24 @@
+//Переменные
+$whiteColor: #fff;
+
 body {
     margin: 0;
     padding: 0;
+    background: gray;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    column-gap: 50px;
+    //flex__item
+    &__item {
+        color: $whiteColor;
+        font-size: 30px;
+        padding: 30px;
+        border: 5px solid white;
+    }
 }
